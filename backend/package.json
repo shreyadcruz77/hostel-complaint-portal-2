@@ -1,0 +1,15 @@
+{
+  "name": "hostel-complaint-portal-backend",
+  "version": "1.0.0",
+  "description": "Minimal backend for Hostel Complaint Portal with Minimoth OTP authentication",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
